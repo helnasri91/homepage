@@ -1,4 +1,5 @@
-body {
+body 
+{
     color: #fffc00;
     font-family: Helvetica;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -7,6 +8,7 @@ body {
 h1, h2, h3
 {
     font-family: Times New Roman,
+        color: red;
 }
 a
 {
