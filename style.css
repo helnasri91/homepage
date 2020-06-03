@@ -7,8 +7,9 @@ body
 }
 h1, h2, h3
 {
+    color: black;
     font-family: Times New Roman,
-        color: red;
+       
 }
 a
 {
