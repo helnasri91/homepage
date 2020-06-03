@@ -90,7 +90,7 @@ a
 
 /* Twitter */
 .fa-twitter {
-   <a href= "https://twitter.com/RocNrole_a" />
+   <a href="https://twitter.com/RocNrole_a?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @RocNrole_a</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   background: #55ACEE;
   color: white;
 }
