@@ -47,6 +47,7 @@ a
     clear: both;
     padding: 500px;
     text-align: left;
+    white-space: nowrap;
 }
 
 #nav ul
