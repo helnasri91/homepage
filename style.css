@@ -1,0 +1,66 @@
+body {
+    color: #fffc00;
+    font-family: Helvetica;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    background-image: url("indexbckgnd.jpg")
+}
+h1, h2, h3
+{
+    font-family: Times New Roman,
+}
+a
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: #BABA7D;;
+    
+    
+}
+
+#container
+{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header
+{
+    text-align: center;
+    padding: 10px;
+    
+}
+#content
+{
+    padding: 10px;
+}
+
+#main
+{
+    width: 600px;
+    float: right;
+}
+#footer
+{
+    clear: both;
+    padding: 500px;
+    text-align: center;
+}
+
+#nav ul
+{
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+#nav
+{
+    width: 180px;
+    float: left;
+}
+#nav .selected
+{
+    font-weight: bold;
+    
+}
