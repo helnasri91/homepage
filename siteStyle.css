@@ -54,3 +54,16 @@ a:hover
     padding: 140px 240px 40px 40px;
 }
 
+
+#footer
+{
+    clear: both;
+    padding: 350px;
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+
