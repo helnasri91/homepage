@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="aboutstyle.css" />
+        
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        
+        <style>
+            p.double {border-style: double;}
+            p.solid {border-style: solid;}
+            </style>
+        
+        </head>
+    <body>
+        
+        
+        <div id="feed">
+        <a href="https://twitter.com/rocnrole_a?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @rocnrole_a</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        
+        </div>
+        
+        <div id="animatedText">
+        </div>
+        <script>
+             var i=0,animatedText;
+             animatedText= "About me."
+             function typing()
+             {
+                 if (i<animatedText.length)
+                 {
+                     document.getElementById("animatedText").innerHTML += animatedText.charAt(i);
+                     i++;
+                     setTimeout(typing,120)
+                 }
+             }
+         typing();
+         
+        
+             </script>
+        
+        <div id="picture">
+            <p class="solid"><img src="hassan2.jpeg" style="width:300px;"></p>
+            </div>
+       
+        <div id="bio">
+        <p>
+        From the big apple to Canada and finally situated in Los Angeles city.<br>
+        The son of two lovely Sudanese natives whom immigrated to New-York City<br> in 1988.
+        Shortly afterwards my family established itself in Montreal and then<br> later Vancouver
+        In my youth, I was the IT person(pun intended)<br> and spent a lot of time making websites of
+        comics and movies<br> like Dragonball. My father and I worked around a lot of network<br> upgrades
+        with hardware from cisco networking systems although most of my assistance<br> was menial.
+        We aided the network upgrades of mostly muslims schools<br> and interestingly farms within
+        the province of British-Columbia I predominantly<br> worked in restaurants and IT after
+        high-school keeping myself curious<br> and hungry I travelled all over North America and
+        Recently made a trip to South Korea.<br> Currently I'm community college student in Santa Monica
+        with my sights <br>on the Electrical Engineering and Computer Science program over at Berkeley or
+        Cal State Pomona.<br> Fun facts about me outside of technical interest; I play a mean jazzy blues
+        guitar,<br> a decorated amateur boxer, and I speak about 4 languages(human languages). Future        aspirations<br> are to grow professionally in the United States as an engineer and to then take
+        what I've learned<br> and apply it globally to places in need, such as my folks' place<br> in the Sudan.
+        One of my mantras in terms of growth knowledge<br> and opportunity is to remember, I am not okay
+        until we are all okay!
+        </p>
+        </div>
+        
+        
+        <div id="footer">
+                 
+             
+              <li><a href="index.html"> <i class="fas fa-cloud" style="font-size:60px;color:lightblue;">Home</i>
+              </a></li>
+
+              
+              
+                 
+             Copyright &copy; 2020 Hassan Aziz Elnasri
+             </div>
+             
+         
+         
+         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </body>
+    </html>

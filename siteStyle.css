@@ -1,0 +1,56 @@
+body
+{
+    background-image: url("indexbckgnd.jpg")
+     
+}
+
+
+#animatedText
+{
+    color: #fffc00;
+    font-family: Helvetica;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 75px;
+    text-align: center;
+    padding-top: 75px;
+}
+
+
+#animatedTextTwo
+{
+    color: #fffc00;
+    font-family: Helvetica;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 45px;
+    text-align: center;
+}
+
+#content ul
+{
+    list-style-type: none;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    line-height: 150px
+}
+
+
+
+a
+{
+    font-family: Helvetica;
+    text-decoration: none;
+    opacity: 0.9;
+    font-weight: bold;
+}
+
+
+a:hover
+{
+    background-color: skyblue;
+}
+ 
+#pic
+{
+    float: right;
+    padding: 140px 240px 40px 40px;
+}
+

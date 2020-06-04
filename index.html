@@ -1,0 +1,60 @@
+<html>
+<head>
+    <style>
+        p.double {border-style: double;}
+        p.solid {border-style: solid;}
+        </style>
+    
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="siteStyle.css" />
+    </head>
+<body>
+  
+    <div id="animatedText">
+        </div>
+    <div id="animatedTextTwo">
+        </div>
+    <script>
+        var i=0,j=0,animatedText,animatedTextTwo;
+        animatedText= "Hello."
+        animatedTextTwo="And, Welcome."
+        function typing()
+        {
+            if (i<animatedText.length)
+            {
+                document.getElementById("animatedText").innerHTML += animatedText.charAt(i);
+                i++;
+                setTimeout(typing,100)
+            }
+            else if (j<animatedTextTwo.length)
+            {
+                document.getElementById("animatedTextTwo").innerHTML += animatedTextTwo.charAt(j);
+                j++;
+                setTimeout(typing,75)
+            }
+        }
+    typing();
+    
+    
+        </script>
+    <div id="pic">
+        
+       <p class="solid"> <img src="hassan3.jpeg" style="width:300px;"></p>
+            
+        </div>
+    <div id="content">
+        <ul>
+            <li><a href="canvas.html"> <i class="fas fa-cloud" style="font-size:60px;color:lightblue;">The Canvas</i>
+</a></li>
+            
+            <li><a href="about.html"> <i class="fas fa-cloud" style="font-size:60px;color:lightblue;">About me</i>
+</a></li>
+            
+            <li><a href="resume.html"> <i class="fas fa-cloud" style="font-size:60px;color:lightblue;">My resume</i>
+</a></li>
+            
+            </ul>
+        </div>
+    </body>
+</html>

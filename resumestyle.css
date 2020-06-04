@@ -1,0 +1,55 @@
+.fa
+{
+  font-size: 150px;
+  padding: 20px;
+  width: 1150px;
+  text-align: center;
+  text-decoration: none;
+  opacity: 0.7;
+  
+}
+
+.fa:hover
+{
+  opacity: 0.35;
+}
+
+.fa-instagram
+{
+  background: beige;
+  color: black;
+
+  
+}
+
+body
+{
+    background-image: url("camerabg2.jpg")
+     
+}
+
+a
+{
+    font-family: Helvetica;
+    text-decoration: none;
+    opacity: 0.8;
+    font-weight: bold;
+}
+
+
+a:hover
+{
+    background-color: skyblue;
+}
+ 
+#footer
+{
+    clear: both;
+    padding: 350px;
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+

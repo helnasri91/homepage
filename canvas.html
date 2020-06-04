@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link rel="stylesheet" type="text/css" href="canvstyle.css" />
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                
+        </head>
+    
+    
+    <body>
+        
+        
+
+      
+        
+        <div id="Text">
+            </div>
+        <div id="TextTwo">
+            </div>
+       
+            </div>
+        <script>
+            var i=0,j=0,k=0,Text,TextTwo;
+            Text= "Hello, again. "
+            TextTwo="Here you can go view my instagram feed!=)"
+            function typing()
+            {
+                if (i<Text.length)
+                {
+                    document.getElementById("Text").innerHTML += Text.charAt(i);
+                    i++;
+                    setTimeout(typing,100)
+                }
+                else if (j<TextTwo.length)
+                {
+                    document.getElementById("TextTwo").innerHTML += TextTwo.charAt(j);
+                    j++;
+                    setTimeout(typing,40)
+                }
+            }
+        typing();
+            </script>
+        <a href="https://www.instagram.com/rocnrole_a" class="fa fa-instagram"></a>
+        <div id="footer">
+            
+        
+         <li><a href="index.html"> <i class="fas fa-cloud" style="font-size:60px;color:lightblue;">Home</i>
+         </a></li>
+
+         
+         
+            
+        Copyright &copy; 2020 Hassan Aziz Elnasri
+        </div>
+        
+        
+       
+        
+        
+        
+        
+        
+        </body>
+    </html>
+

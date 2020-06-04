@@ -1,0 +1,89 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		0D1FF67224898C9500C4B167 /* resumestyle.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = resumestyle.css; sourceTree = "<group>"; };
+		0D1FF6732489914E00C4B167 /* aboutstyle.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = aboutstyle.css; sourceTree = "<group>"; };
+		0DE8DCC92488898D00A82CDE /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		0DE8DCCA248889A700A82CDE /* animatedtext.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = animatedtext.js; sourceTree = "<group>"; };
+		0DE8DCCB2488965D00A82CDE /* siteStyle.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = siteStyle.css; sourceTree = "<group>"; };
+		0DE8DCCC24889CF200A82CDE /* canvas.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = canvas.html; sourceTree = "<group>"; };
+		0DE8DCCD24889D0500A82CDE /* Resume.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = Resume.html; sourceTree = "<group>"; };
+		0DE8DCCE24889D1800A82CDE /* about.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = about.html; sourceTree = "<group>"; };
+		0DE8DCCF2488C62300A82CDE /* canvstyle.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = canvstyle.css; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0DE8DCC22488896100A82CDE = {
+			isa = PBXGroup;
+			children = (
+				0D1FF6732489914E00C4B167 /* aboutstyle.css */,
+				0D1FF67224898C9500C4B167 /* resumestyle.css */,
+				0DE8DCCF2488C62300A82CDE /* canvstyle.css */,
+				0DE8DCCE24889D1800A82CDE /* about.html */,
+				0DE8DCCD24889D0500A82CDE /* Resume.html */,
+				0DE8DCCC24889CF200A82CDE /* canvas.html */,
+				0DE8DCCB2488965D00A82CDE /* siteStyle.css */,
+				0DE8DCCA248889A700A82CDE /* animatedtext.js */,
+				0DE8DCC92488898D00A82CDE /* index.html */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		0DE8DCC32488896100A82CDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+			};
+			buildConfigurationList = 0DE8DCC62488896100A82CDE /* Build configuration list for PBXProject "SnapIntern2020" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DE8DCC22488896100A82CDE;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		0DE8DCC72488896100A82CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		0DE8DCC82488896100A82CDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DE8DCC62488896100A82CDE /* Build configuration list for PBXProject "SnapIntern2020" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DE8DCC72488896100A82CDE /* Debug */,
+				0DE8DCC82488896100A82CDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DE8DCC32488896100A82CDE /* Project object */;
+}
