@@ -66,4 +66,11 @@ a:hover
     
 }
 
-
+#campaign-zero-widget
+{
+    opacity: 0.3px;
+    clear: both;
+    position: relative;
+    height: -200px;
+    margin-top: -400px;
+}
